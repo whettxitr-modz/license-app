@@ -18,6 +18,6 @@ export default async function handler(req, res) {
 
   res.json({
     web_info: { client: rec.client_name, license: rec.license_key },
-    web__dev: { author: 'whettxitrmodz', github: 'https://github.com/whettxitr' }
+    web__dev: { author: 'whettxitrmodz', github: 'https://github.com/whettxitr-modz' }
   });
 }
